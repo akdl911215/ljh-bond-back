@@ -1,8 +1,9 @@
 package com.ljh.domain.auth;
 
-import jakarta.validation.constraints.NotNull;
+
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+
 
 @Data
 @RequiredArgsConstructor

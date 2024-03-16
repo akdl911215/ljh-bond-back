@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-public class creditor {
+public class Creditor {
     private String creditor_id;
     private String name;
     private String price;
