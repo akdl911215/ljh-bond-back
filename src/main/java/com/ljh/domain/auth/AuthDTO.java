@@ -7,7 +7,7 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-public class Auth {
+public class AuthDTO {
     private String auth_id;
     private String creditor_id;
     private String tax_history;
