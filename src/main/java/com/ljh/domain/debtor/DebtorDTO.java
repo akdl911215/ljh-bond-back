@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-public class Debtor {
+public class DebtorDTO {
 
     private String id;
     private String creditor_id;

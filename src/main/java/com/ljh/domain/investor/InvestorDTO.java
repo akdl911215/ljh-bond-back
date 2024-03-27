@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-public class Investor {
+public class InvestorDTO {
     private String name;
     private String price;
     private String rate;

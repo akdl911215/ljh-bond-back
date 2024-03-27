@@ -1,4 +1,4 @@
-package com.ljh.domain.item;
+package com.ljh.domain.product;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Data
 @RequiredArgsConstructor
-public class Product {
+public class ProductDTO {
 
     @Positive
     private String id;
@@ -20,13 +20,12 @@ public class Product {
     @Positive
     private String creditor_id; // 채권자id
     @NotNull
-    private Product_Priority productPriority; // 우선순위
+    private Date due_date; // 만기일
 
-    private Date dueDate; // 만기일
+    private Integer total_price; // 총금액
 
-    private Integer totalPrice; // 총금액
+    private Integer rest_price; // 잔여금액
 
-    private Integer remain; // 잔여금액
-
+    private Integer amount_paid; //납부금액
 
 }
