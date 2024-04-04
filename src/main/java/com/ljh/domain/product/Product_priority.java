@@ -1,4 +1,4 @@
-package com.ljh.domain.item;
+package com.ljh.domain.product;
 
 import jakarta.validation.constraints.NotNull;
 
